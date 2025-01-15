@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employye registration</title>
+</head>
+
+<body>
+    <div>
+    <h2>personal information</h2>
+    <div>
+        <label for="ID">ENTER YOUR ID:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="ID" name="ID" required placeholder="enter your ID">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="name">Enter your name :</label>
+        <input type="text" id="name" name="name" required placeholder="enter your name">
+    </div>
+    <br>
+    <div>
+        <label for="email">Enter your email :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="email" id="email" name="email" required placeholder="enter your email">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="tel">Enter your mobile number </label>
+        <input type="tel" id="tel" name="tel" required placeholder="enter your mobile number">
+    </div>
+    <br>
+    <div>
+        <label for="maritual status">Maritual status :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="radio" id="single" name="maritual status" value="single">
+        <label for="single">Single</label>
+        <input type="radio" id="married" name="maritual status" value="married">
+        <label for="married">Married</label>
+    </div>
+
+    <h2>Educational qualifications</h2>
+    <div>
+        <label for="education">Education :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="education" name="education" required placeholder="enter education details">
+
+        <label for="experience">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Experience :</label>
+        <input type="text" id="experience" name="experience" required placeholder="enter experience details">
+    </div>
+
+    <h2>Job Details</h2>
+    <div>
+        <label for="Designation">Designation :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="Designation" name="Designation" required placeholder="Enter designation details">
+        
+        <label for="location">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Job location :</label>
+        <input type="text" name="location" id="location" placeholder="Enter job location">
+    </div>
+    <br>
+    <div>
+        <label for="salary">Salary :</label>
+        <input type="number" id="salary" name="salary" placeholder="Enter salary">
+    </div>
+    <br>
+    <button type="submit">Register</button>
+</div>
+</body>
+
+</html>
