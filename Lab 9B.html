@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 9B</title>
+</head>
+<style>
+    .container{
+        height: 90vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 10px;
+        align-items: center;
+        background-color: aqua;
+    }
+    .box{
+        height: 50px;
+        width: 50px;
+        margin: 10px;
+        background-color: black;
+        /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        animation: wave 1s 1s infinite normal; 
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        border-radius: 50%;     
+    }
+    @keyframes wave{
+        from{
+            transform: translateY(-200px);
+        }
+        to{
+            transform: translateY(200px);
+        }
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box" style="animation-delay: 0s;"></div>
+        <div class="box" style="animation-delay: 0.5s;"></div>
+        <div class="box" style="animation-delay: 1s;"></div>
+        <div class="box" style="animation-delay: 1.5s;"></div>
+        <div class="box" style="animation-delay: 2s;"></div>
+        <div class="box" style="animation-delay: 2.5s;"></div>
+        <div class="box" style="animation-delay: 3s;"></div>
+        <div class="box" style="animation-delay: 3.5s;"></div>
+        <div class="box" style="animation-delay: 4s;"></div>
+        <div class="box" style="animation-delay: 4.5s;"></div>
+        <div class="box" style="animation-delay: 5s;"></div>
+        <div class="box" style="animation-delay: 6s;"></div>
+        <div class="box" style="animation-delay: 6.5s;"></div>
+        <div class="box" style="animation-delay: 7s;"></div>
+        <div class="box" style="animation-delay: 7.5s;"></div>
+        <div class="box" style="animation-delay: 8s;"></div>
+        <div class="box" style="animation-delay: 8.5s;"></div>
+        <div class="box" style="animation-delay: 9s;"></div>
+        <div class="box" style="animation-delay: 9.5s;"></div>
+        <div class="box" style="animation-delay: 10s;"></div>
+        <div class="box" style="animation-delay: 10.5s;"></div>
+        <div class="box" style="animation-delay: 11s;"></div>
+    </div>
+</body>
+</html>

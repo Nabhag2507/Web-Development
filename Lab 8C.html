@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 8C</title>
+    <style>
+        .header {
+            height: 8vh;
+            background-color: #77a9d7;
+        }
+
+        .logo {
+            height: 55px;
+            width: 55px;
+            border-radius: 50%;
+            background-color: purple;
+            text-align: center;
+            font-size: 50px;
+        }
+
+        nav {
+            margin-left: 950px;
+            margin-top: 20px;
+            position: relative;
+            top: -70px;
+            width: 500px;
+            height: 50px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav a {
+            position: relative;
+            display: inline-block;
+            font-size: 1em;
+            font-weight: 500;
+            color: #fff;
+            text-decoration: none;
+            padding: 0 23px;
+            z-index: 1;
+        }
+
+        nav span {
+            position: absolute;
+            top: 0;
+            left: 60px;
+            width: 95px;
+            height: 100%;
+            background: linear-gradient(45deg, #4c9b96, #33ffd6);
+            border-radius: 8px;
+            transition: .5s;
+        }
+
+        nav a:nth-child(1):hover~span {
+            left: 0;
+        }
+
+        nav a:nth-child(2):hover~span {
+            left: 145px;
+            width: 90px;
+        }
+
+        nav a:nth-child(3):hover~span {
+            left: 220px;
+            width: 110px;
+        }
+
+        nav :nth-child(4) {
+            background-color: rgb(65, 109, 219);
+            border-radius: 50px;
+            height: 30px;
+            padding-top: 8PX;
+        }
+
+        .main {
+            height: 200vh;
+            /* background-color: aquamarine; */
+        }
+
+        .main p {
+            font-size: 40px;
+            margin-left: 454px;
+            margin-right: 352px;
+            text-align: center;
+        }
+
+        .main p span {
+            color: rgb(3, 59, 101);
+        }
+
+        .info img {
+            position: relative;
+            top: -84px;
+            display: block;
+            margin: 0px auto;
+            height: 400px;
+            border-radius: 50px;
+        }
+
+        .right-button {
+            position: relative;
+            left: 261px;
+            top: 100px;
+            height: 57px;
+            width: 132px;
+            background-color: rgb(83, 29, 210);
+            border-radius: 50px;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .left-button {
+            position: relative;
+            left: 1108px;
+            top: 268px;
+            height: 57px;
+            width: 132px;
+            background-color: rgb(83, 29, 210);
+            border-radius: 50px;
+            border-radius: 50px;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .linking {
+            height: 20vh;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            height: 20px;
+            gap: 230px;
+            padding: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo" style="display: inline-block;">A</div>
+            <span style="font-size: 30px;">Alea</span>
+            <nav>
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Services</a>
+                <a href="">Lets talk</a>
+                <span></span>
+            </nav>
+        </div>
+
+        <div class="main">
+            <div class="info">
+                <p>I'm <span>Alea</span> I will design a web design that can give value to your company</p>
+                <div class="right-button">
+                    UI/UX Designer
+                    4years
+                </div>
+                <div class="left-button">
+                    Web developer
+                    2 Years
+                </div>
+                <img src="images.jpg" alt="image">
+            </div>
+            <div class="linking">
+                <img src="linked logo.png" alt="logo">
+                <img src="linked logo.png" alt="logo">
+                <img src="linked logo.png" alt="logo">
+                <img src="linked logo.png" alt="logo">
+            </div>
+        </div>
+
+        <div class="footer">
+
+        </div>
+
+    </div>
+</body>
+
+</html>
