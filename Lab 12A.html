@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 12A</title>
+    <style>
+        a:link {
+            color: red;
+        }
+
+        a:visited {
+            color: brown;
+        }
+
+        p::first-letter {
+            color: blue;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        p::first-line {
+            background-color: aquamarine;
+        }
+
+        .container:nth-child(3) {
+            background-color: chartreuse;
+        }
+
+        ::selection {
+            background-color: yellow;
+            color: black;
+        }
+
+        ul li {
+            background-color: aqua;
+        }
+
+        marker {
+            color: rgb(255, 0, 208);
+        }
+
+        button {
+            height: 50px;
+            width: 100px;
+            background-color: green;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        .two {
+            height: 50px;
+            width: 100px;
+            background-color: red;
+        }
+
+        .two:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://www.google.com">Google</a>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta necessitatibus animi obcaecati sapiente eligendi consequatur voluptate eum magnam nesciunt, quis, nihil quae quasi sit possimus? Aliquid quasi quas laudantium ipsum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo dolore fugit dolor molestias ex in. Suscipit vel ullam explicabo corrupti optio et vero cum soluta. Fugit consequuntur ipsum cum.</p>
+
+        <div>
+            Hello friends
+        </div>
+
+        <ul>
+            <li>ABC</li>
+            <li>ABC</li>
+            <li>ABC</li>
+            <li>ABC</li>
+        </ul>
+
+        <button class="active-button">Submit</button>
+        <button class="two active-button">Delete</button>
+    </div>
+</body>
+</html>

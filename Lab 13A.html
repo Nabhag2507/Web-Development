@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 13A</title>
+    <style>
+        .header {
+            height: 25vh;
+            background-color: rgb(179, 177, 177);
+            border-bottom: 10px solid green;
+        }
+
+        .abc {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .header img {
+            display: inline-block;
+            height: 76px;
+            width: 103px;
+            margin-bottom: 20px;
+        }
+
+        .content {
+            margin-left: 20px;
+            color: rgb(3, 252, 252);
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        nav {
+            margin-top: 30px;
+            margin-right: 30px;
+            display: flex;
+            justify-content: end;
+            gap: 20px;
+        }
+
+        .something1 {
+            display: flex;
+            justify-content: space-between;
+            text-align: justify;
+            padding: 20px;
+            height: 20vh;
+            border: 5px solid black;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .something1 img {
+            height: 150px;
+            width: 200px;
+        }
+
+        button {
+            height: 50px;
+            width: 100px;
+            border-radius: 50px;
+            background-color: red;
+        }
+        button:hover{
+            opacity: 80%;
+        }
+
+        .something2 {
+            display: flex;
+            justify-content: space-between;
+            height: 100vh;
+        }
+
+        .left {
+            padding-top: 5px;
+            height: 70vh;
+            width: 60vw;
+        }
+
+        .right {
+            height: 70vh;
+            width: 37vw;
+
+        }
+
+        .latestnews {
+            display: flex;
+        }
+
+        .latestnews img {
+            height: 150px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="abc">
+            <img src="Shopify-Logo-PNG.png" alt="shopify logo">
+            <nav>
+                <div>Home</div>
+                <div>Service</div>
+                <div>Gallery</div>
+                <div>Company</div>
+                <div>Contact</div>
+            </nav>
+        </div>
+        <div class="content">A perfect Ecommerce solution</div>
+    </div>
+
+    <div class="main">
+        <div class="something1">
+            <div class="img">
+                <img src="ps_windows_01.avif" alt="windows logo">
+            </div>
+            <div style="width: 55vw;">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates asperiores ullam sit
+                    officiisquos officia vero neque impedit harum quae delectus obcaecati, perspiciatis cumque natus cum
+                    illum, hiclaborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eum quae,
+                    perferendis oditcorporis laboriosam dicta autem mollitia obcaecati? Quos dignissimos dolor ab fuga
+                    dicta saepe soluta optio ullam nesciunt!</p>
+                <button>Read More</button>
+            </div>
+        </div>
+        <div class="something2">
+            <div class="left">
+                <h1>Welcome to website !</h1>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident ex, neque saepe id
+                    voluptates! Nulla harum et voluptas, obcaecati odio eaque maiores unde, sequi at labore beatae, ea
+                    exercitationem!</h3>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dignissimos libero eum pariatur,
+                    nisi dolor? Placeat recusandae aliquid enim repellat labore, mollitia dolorem dignissimos
+                    voluptatibus omnis adipisci fuga veritatis earum! Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Perspiciatis maxime voluptate voluptates adipisci iure accusantium consequatur
+                    doloribus, placeat aut, ducimus laboriosam distinctio similique quo dicta deleniti, eius sit ipsum
+                    eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolor, enim quam minima nisi
+                    beatae incidunt aperiam fuga quisquam perspiciatis nobis esse laudantium, molestias labore quo
+                    veritatis praesentium delectus repellendus.</p>
+                <ul>
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, pariatur?</li>
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, pariatur?</li>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi porro modi quis, dolorem aut
+                        consequuntur explicabo, pariatur fuga quae alias obcaecati? Iste nemo labore consequatur tempore
+                        exercitationem, laboriosam placeat nam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Repellendus quia unde impedit reprehenderit minima beatae doloremque ipsam maxime explicabo ipsa
+                        inventore minus, obcaecati blanditiis aut corrupti perspiciatis exercitationem sed quaerat!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ipsa earum aliquam
+                        consectetur, minima soluta? Esse repellendus culpa eveniet dolores obcaecati nesciunt iste
+                        quidem dicta! Architecto adipisci rerum assumenda aut.</p>
+                </ul>
+            </div>
+            <div class="right">
+                <h1>Latest news</h1>
+                <div class="latestnews">
+                    <img src="images.jpg" alt="img">
+                    <div>
+                        <span style="border: 2px solid black; margin: 20px;">OCT 29,2024</span>
+                        <div style="margin: 20px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, tempore. Lorem ipsum dolor
+                            sit amet consectetur, adipisicing elit. Odio, delectus.</div>
+                    </div>
+                </div>
+
+                <div class="latestnews">
+                    <img src="images.jpg" alt="img">
+                    <div>
+                        <span style="border: 2px solid black; margin: 20px;">OCT 29,2024</span>
+                        <div style="margin: 20px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, tempore. Lorem ipsum dolor
+                            sit amet consectetur, adipisicing elit. Odio, delectus.</div>
+                    </div>
+                </div>
+
+                <div class="latestnews">
+                    <img src="images.jpg" alt="img">
+                    <div>
+                        <span style="border: 2px solid black; margin: 20px;">OCT 29,2024</span>
+                        <div style="margin: 20px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, tempore. Lorem ipsum dolor
+                            sit amet consectetur, adipisicing elit. Odio, delectus.</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
